@@ -11,6 +11,11 @@ require("tape")("minimal-bit-array", function(t) {
     for(var j=0; j<100; ++j) {
       t.equals(x.get(j), j%i === 0, i +":"+j)
     }
+    var y = new BitArray(100)
+    y.import(x.export());
+    for(var k=0; k<100; ++k) {
+      t.equals(x.get(k), y.get(k))
+    }
   }
   t.end()
 })
