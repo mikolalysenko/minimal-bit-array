@@ -1,6 +1,6 @@
 {
   "name": "minimal-bit-array",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Minimal bit array implementation that is compatible with ndarrays",
   "main": "bitarray.js",
   "directories": {

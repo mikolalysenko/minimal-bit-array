@@ -32,5 +32,11 @@ Retrieves the bit at location i
 ### `array.set(i, v)`
 Sets the bit at location i to v
 
+### `array.toJSON()`
+Serializes the array to a JSON object
+
+### `BitArray.fromJSON(x)`
+Deserializes a JSON object into a bit array.
+
 ## Credits
 (c) 2013 Mikola Lysenko. MIT License
