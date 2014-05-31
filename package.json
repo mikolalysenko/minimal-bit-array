@@ -1,18 +1,17 @@
 {
   "name": "minimal-bit-array",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Minimal bit array implementation that is compatible with ndarrays",
   "main": "bitarray.js",
   "directories": {
     "test": "test"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
-    "tape": "~1.0.4"
+    "tape": "^2.13.1"
   },
   "scripts": {
-    "test": "tap test/*.js"
+    "test": "tape test/*.js"
   },
   "repository": {
     "type": "git",
@@ -30,5 +29,21 @@
   "gitHead": "3f08c2faccc8084c1f469d04f78d374ca4c6f47d",
   "bugs": {
     "url": "https://github.com/mikolalysenko/minimal-bit-array/issues"
+  },
+  "testling": {
+    "files": "test/*.js",
+    "browsers": [
+      "ie/8..latest",
+      "firefox/17..latest",
+      "firefox/nightly",
+      "chrome/22..latest",
+      "chrome/canary",
+      "opera/12..latest",
+      "opera/next",
+      "safari/5.1..latest",
+      "ipad/6.0..latest",
+      "iphone/6.0..latest",
+      "android-browser/4.2..latest"
+    ]
   }
 }

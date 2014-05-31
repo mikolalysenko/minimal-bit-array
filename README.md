@@ -2,6 +2,10 @@ minimal-bit-array
 =================
 A minimalistic bit array implementation that is compatible with ndarray's internals.
 
+[![testling badge](https://ci.testling.com/mikolalysenko/minimal-bit-array.png)](https://ci.testling.com/mikolalysenko/minimal-bit-array)
+
+[![build status](https://secure.travis-ci.org/mikolalysenko/minimal-bit-array.png)](http://travis-ci.org/mikolalysenko/minimal-bit-array)
+
 ## Example
 ```javascript
 var BitArray = require("minimal-bit-array")
